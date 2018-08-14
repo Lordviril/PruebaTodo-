@@ -24,7 +24,7 @@ func getDictionary(url:String, Ok:@escaping ((NSDictionary) -> Void), Error:@esc
                 Error( "En el momento la aplicación no está disponible intente más tarde")
             }
                 
-            else if (response.response?.statusCode == 200 || response.response?.statusCode == 422 || response.response?.statusCode == 422)
+            else if (response.response?.statusCode == 200 )
             {
                 
                 if let data = response.data{

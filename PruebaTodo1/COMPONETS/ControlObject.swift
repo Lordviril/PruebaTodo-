@@ -1,9 +1,9 @@
 //
-//  ControlObject.swift
-//  Mi Aguila Ya
+//  PruebaTodo1Tests.swift
+//  PruebaTodo1
 //
-//  Created by MacUser on 26/04/16.
-//  Copyright © 2016 Anthony Pauriche. All rights reserved.
+//  Created by Pedro Alonso Daza B on 12/08/18.
+//  Copyright © 2018 Pedro Alonso Daza B. All rights reserved.
 //
 
 import UIKit

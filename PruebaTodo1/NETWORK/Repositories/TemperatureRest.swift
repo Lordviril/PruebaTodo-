@@ -12,11 +12,13 @@ import SwiftSpinner
 
 func getTemperature(Controller:UIViewController, log:Double, lat:Double, Ok:@escaping ((ZoneResponsObject)->Void) )
 {
-    
-    if !stateConection()
-    {
+    if !Connectivity.isConnectedToInternet() {
         showAlertError(View: Controller, Men: ErrorConection)
+        return
+        // do some tasks..
     }
+    
+
     
     let url = KUrlTemperature.replacingOccurrences(of: "[latitude]", with: "\(lat)").replacingOccurrences(of: "[longitude]", with: "\(log)")
     SwiftSpinner.show("Cargando...")
@@ -45,21 +47,6 @@ func getTemperature(Controller:UIViewController, log:Double, lat:Double, Ok:@esc
 
 }
 
-func stateConection() -> Bool
-{
-    guard let status = Network.reachability?.status else {
-        return true
-        
-    }
-    switch status {
-    case .unreachable:
-        return false
-    case .wifi:
-        return true
-    case .wwan:
-        return true
-    }
-}
 
 
 
