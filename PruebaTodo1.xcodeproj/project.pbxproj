@@ -146,7 +146,7 @@
 		954C2FCC2120A6470051556B /* PruebaTodo1 */ = {
 			isa = PBXGroup;
 			children = (
-				954C301421224DBF0051556B /* Presentation */,
+				954C301421224DBF0051556B /* PRESENTATIONS */,
 				954C301321224CBE0051556B /* UI */,
 				954C30072120B32C0051556B /* COMPONETS */,
 				954C30022120B1F80051556B /* MODEL */,
@@ -241,12 +241,12 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		954C301421224DBF0051556B /* Presentation */ = {
+		954C301421224DBF0051556B /* PRESENTATIONS */ = {
 			isa = PBXGroup;
 			children = (
 				954C2FCF2120A6470051556B /* TimeTempViewController.swift */,
 			);
-			path = Presentation;
+			path = PRESENTATIONS;
 			sourceTree = "<group>";
 		};
 		B4C17965205E33DAE0E5957A /* Pods */ = {
