@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - SwiftSpinner (1.4.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Material (~> 2.0)
+  - SwiftSpinner (~> 1.4.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Material
+    - Motion
+    - SwiftSpinner
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  SwiftSpinner: bf7c13332ad008952a09358cadf24a186510ae31
+
+PODFILE CHECKSUM: b181d81d54e0a6a280a5b04c50ff39c4626d7229
+
+COCOAPODS: 1.5.3
